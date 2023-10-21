@@ -1,0 +1,76 @@
+.soft {
+    background-color: #000000;
+    padding: 24px;
+    height: calc(100vh - 114px);
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    &__card{
+        width: 276px;
+        margin-bottom: 24px;
+    }
+    &__rasm{
+        width: 100%;
+        height: 155px;
+    }
+    &__frond {
+        display: flex;
+        padding: 12px 0 18px;
+    }
+    &__time {
+        color: var(--white-color, #fff);
+        font-family: Roboto;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 3px 4px;
+        background: var(--black, #000);
+        position: absolute;
+        top: -38px;
+        right: 4px;
+    }
+    &__frond img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+    }
+    &__right {
+        padding-left: 12px;
+        position: relative;
+    }
+    &__title {
+        color: var(--white-color, #fff);
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 6px;
+    }
+    &__text {
+        color: var(--gray-color, #aaa);
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__views {
+        color: var(--gray-color, #aaa);
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__when {
+        color: var(--gray-color, #aaa);
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

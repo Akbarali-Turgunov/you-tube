@@ -1,0 +1,60 @@
+.sidebar {
+    width: 240px;
+    height: calc(100vh - 56px);
+    overflow: auto;
+    &__menu {
+        border-bottom: 1px solid #303030;
+        padding: 12px 0;
+    }
+    &__a {
+        display: flex;
+        align-items: center;
+        padding: 8px 8px 8px 24px;
+    }
+    &__a:hover{
+        background-color: #303030;
+    }
+    &__a1 {
+        display: flex;
+        align-items: center;
+        padding: 8px 8px 8px 24px;
+    }
+    &__a1:hover{
+        background-color: #303030;
+    }
+    &__b {
+        display: flex;
+        align-items: center;
+        padding: 8px 8px 8px 24px;
+    }
+    &__b:hover{
+        background-color: #303030;
+    }
+    &__b img{
+        border-radius: 50%;
+    }
+    &__a img {
+        padding: 0 4px;
+    }
+    &__a1 img {
+        padding: 0 6px;
+    }
+    &__text {
+        padding-left: 24px;
+        color: var(--white-color, #fff);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__title {
+        color: var(--gray-color, #aaa);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 8px 24px;
+    }
+}

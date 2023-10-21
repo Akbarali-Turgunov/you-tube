@@ -1,0 +1,73 @@
+.navbar {
+    background-color: #212121;
+    max-width: 1440px;
+    height: 56px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+    &__rasm {
+        padding: 8px;
+        cursor: pointer;
+    }
+    &__rasm1 {
+        padding: 0 16px;
+        cursor: pointer;
+    }
+    &__center {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    &__inpt {
+        color: var(--gray-color, #aaa);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 362px;
+        height: 40px;
+        border-radius: 2px 0px 0px 2px;
+        background: #121212;
+        outline: none;
+        border: 0;
+        padding: 7px;
+    }
+    &__intp {
+        background-color: #303030;
+        display: flex;
+        align-items: center;
+    }
+    &__intp img {
+        padding: 0 16px;
+        margin: 0 7px;
+        cursor: pointer;
+    }
+    &__rasm2 {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    &__right {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    &__right img {
+        padding: 0 12px;
+    }
+    &__rasm3 {
+        border-radius: 50%;
+    }
+}
